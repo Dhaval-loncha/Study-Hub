@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #e7e7e7;
+}
+/* Navigation Bar */
+.navbar{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    gap: 3rem;
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+}
+/* Logo */
+#logo img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+/* Navigation List */
+.navbar ul{
+    display: flex;
+    font-family: cursive;
+    gap: 3rem;
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Main Container */
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin-top: 45px;
+    gap: 3rem;
+}
+#cse-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cse-section img{
+    height: 35vh;
+    width: 35vw;
+}
+#cse-head{
+    height: 35vh;
+    width: 35vw;   
+    background: linear-gradient(180deg, #879da1 0%, #e7e7e7 100%);
+}
+#cse-head h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px;
+}
+#cse-buttons{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#cse-buttons button{
+    padding: 12px;
+    border: none;
+    background-color: coral;
+    border-radius: 25px;
+}
+#it-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#it-section img{
+    height: 35vh;
+    width: 35vw;
+}
+#it-head{
+    height: 35vh;
+    width: 35vw;   
+    background: linear-gradient(180deg, #879da1 0%, #e7e7e7 100%);
+}
+#it-head h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px;
+}
+#it-buttons{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#it-buttons button{
+    padding: 12px;
+    border: none;
+    background-color: coral;
+    border-radius: 25px;
+}
+.container button a{
+    text-decoration: none;
+    color: black;
+}
+.container button a:hover{
+    cursor: pointer;
+    color: white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 2px;
+}
