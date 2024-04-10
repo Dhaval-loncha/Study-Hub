@@ -189,14 +189,14 @@ body{
         flex-direction: column;
     }
       #cse-section img, #it-section img {
-        height: 61vh;
-        width: 61vw;
+        height: 50vh;
+        width: 94vw;
     }
 
     #cse-head,#it-head {
         background: linear-gradient(0deg, #879da1 0%, #e7e7e7 100%);
-        height: 61vh;
-        width: 61vw;
+        height: 50vh;
+        width: 94vw;
     }
     #cse-buttons button,  #it-buttons button {
         padding: 12px;
