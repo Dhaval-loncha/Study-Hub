@@ -148,71 +148,68 @@ body{
 }
 @media only screen and (max-width:800px) {
 
-    .navbar{
+    .navbar {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 0px;
     }
-    .navbar ul{
+
+    .navbar ul {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 0px;
     }
-    #it-head h1 {
+
+    .navbar ul li a {
+        font-family: courier new;
+        font-weight: bold;
+    }
+
+    #it-head h1 ,#cse-head h1{
         text-align: center;
-        font-size: 0.57rem;
+        font-size: 1.57rem;
         text-align: center;
         margin: 0px;
     }
-    #it-head {
+
+    #it-head , #cse-head{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    #cse-head {
-        display: flex;
+    #cse-section, #it-section{
         flex-direction: column;
-        justify-content: center;
     }
-    #cse-head h1 {
-        text-align: center;
-        font-size: 0.57rem;
-        text-align: center;
-        margin: 0px;
-    }
-    #cse-buttons{
+    #cse-buttons,#it-buttons  {
         display: flex;
         flex-direction: column;
     }
-    #cse-buttons button {
+      #cse-section img, #it-section img {
+        height: 61vh;
+        width: 61vw;
+    }
+
+    #cse-head,#it-head {
+        background: linear-gradient(0deg, #879da1 0%, #e7e7e7 100%);
+        height: 61vh;
+        width: 61vw;
+    }
+    #cse-buttons button,  #it-buttons button {
         padding: 12px;
         border: none;
-        background-color: coral;
-        border-radius: 25px;
-        width: 55px;
+        /* background-color: #322ceb; */
+        border-radius: 4px;
+        width: 78%;
         height: 13px;
         padding: 1px;
-        margin: -7px;
-        font-size: 6px;
+        margin: -3px 0px;
+        font-size: 14px;
+        height: 29px;
+        /* font-family: courier new; */
+        color: white;
     }
-    #it-buttons{
-        display: flex;
-        flex-direction: column;
-    }
-    #it-buttons button {
-        padding: 12px;
-        border: none;
-        background-color: coral;
-        border-radius: 25px;
-        width: 55px;
-        height: 13px;
-        padding: 1px;
-        margin: -7px;
-        font-size: 6px;
-    }
-   
 }
