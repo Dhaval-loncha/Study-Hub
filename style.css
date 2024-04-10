@@ -38,7 +38,8 @@ body{
 /* Navigation List */
 .navbar ul{
     display: flex;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     gap: 3rem;
 }
 .navbar ul li{
