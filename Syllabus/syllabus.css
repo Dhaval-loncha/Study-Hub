@@ -92,3 +92,39 @@ p a:hover{
 #cbtn:hover, #ibtn:hover{
     border-bottom: 2px solid white;
 }
+@media only screen and (max-width:800px) {
+    .navbar{
+        height: 268px;
+    }
+    .tab {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .tab button{
+         border: 2px solid black;
+    }
+    .semester h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .semester table tbody tr th{
+            font-size: 1rem;
+    }
+    .semester table tbody tr td{
+        font-size: 0.8rem;
+        padding: 5px 0;
+        width: 54px;
+    }
+    table{
+        margin: 0px;
+        width: 100%;
+    }
+    .syllabus-container{
+        padding: 4px;
+    }
+    #cbtn, #ibtn {
+        border-bottom: 2px solid black;
+        background: #ada7a0;
+    }
+}
